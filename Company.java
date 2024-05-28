@@ -7,11 +7,11 @@ public class Company {
         Employee[] employees = new Employee[5];
 
         // Dodawanie pracowników
-        employees[0] = new Manager("Sandra Wój", 50000, 0);
-        employees[1] = new Worker("Przemysław Zaremski", 60000, "Deweloper");
-        employees[2] = new Employee("Sylwia Poznańska", 55000);
-        employees[3] = new Worker("Dajana Majda", 65000, "Księgowa");
-        employees[4] = new Worker("Julita Reklińska", 70000, "Menedżer marketingu");
+        employees[0] = new Manager("Mikołaj Kubicki", 50000, 0);
+        employees[1] = new Worker("Kacper Gabrysiak", 60000, "Deweloper");
+        employees[2] = new Employee("Wiktoria Pospolita", 55000);
+        employees[3] = new Worker("Anna Kadaj", 65000, "Księgowa");
+        employees[4] = new Worker("Piotr Nowak", 70000, "Menedżer marketingu");
 
         // Wyświetlanie danych dla wszystkich pracowników
         System.out.println("Dane dla wszystkich pracowników:");
