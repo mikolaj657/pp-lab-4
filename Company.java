@@ -6,7 +6,7 @@ public class Company {
     public static void main(String[] args) {
         Employee[] employees = new Employee[7];
 
-       // Dodawanie pracowników
+        // Dodawanie pracowników
         employees[0] = new Manager("Mikołaj Kubicki", 50000, 0);
         employees[1] = new Worker("Kacper Gabrysiak", 60000, "Deweloper");
         employees[2] = new Employee("Wiktoria Pospolita", 55000);
